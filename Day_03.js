@@ -34,13 +34,13 @@ while(k<=10){
     --> array
     */
 
-//syntax: for(let variable of string/array){
+//syntax: for(let variable +of +string/array in which data is stored){
 //     console.log(variable);
 // }
 //to calculate the number of character in string
 
 let legth=0;
-let str="ARIF IS A GOOD BOY";
+let str="ARIF IS A GOOD BOY"; //we have to access each character of this string
 for(let char of str){
     console.log(char);
     legth++;
@@ -48,18 +48,27 @@ for(let char of str){
 console.log("Length of string is: ",legth);
 
 
-//for-in loop is used to access the object
-//syntax: for(let variable in object){
+//for-in loop is used to access the object 
+//syntax: for(let variable +in+ object){
 //     console.log(variable);
 // }
 
 let obj={
     name:"Arif",
     age:24,
-    city:"Mumbai"
+    city:"Mumbai",
+    gender:"Male",
 };
 
+
 for(let key in obj){
-    console.log(key); //to access the key
-    console.log(obj[key]); //to access the value of the key
+    console.log("key is",key); //to access the key
+    console.log(obj[key]); //to access the value of the key 
 }   
+
+
+
+
+
+/*The for-of loop is primarily used to iterate over iterable objects such as arrays,
+ strings, maps, sets, etc. It provides an easy wayto loop through each element or value of the iterable*/
