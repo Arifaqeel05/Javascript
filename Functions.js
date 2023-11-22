@@ -1,15 +1,15 @@
 console.log("------ Functions.js ----- ");
 
 // Function Declaration
-function add(a,b){
-     sum=a+b;
-    return sum;
-}
+// function add(a,b){
+//      sum=a+b;
+//     return sum;
+// }
 
-let n1=parseInt(prompt("Enter first number"));
-let n2=parseInt(prompt("Enter second number"));
-let result=add(n1,n2);
-console.log("Sum is "+result);
+// let n1=parseInt(prompt("Enter first number"));
+// let n2=parseInt(prompt("Enter second number"));
+// let result=add(n1,n2);
+// console.log("Sum is "+result);
 
 
 
@@ -27,3 +27,28 @@ console.log("Sum is "+result);
 //syntax
 //let functionName=(parameter1,parameter2,..)=>expression;
 
+const variableNametostroeFunction=(a,b)=>{
+    return a+b;
+}
+
+num12=10;
+num21=202;
+console.log("Sum is "+variableNametostroeFunction(num12,num21));
+//let result1=variableNametostroeFunction(num12,num21);
+//console.log("Sum is "+result1);
+
+
+
+const vari=(a,b)=>{
+    return a*b;
+}
+
+let c=vari(10,10);
+console.log("Multiplication is "+c);
+
+
+const nameprint=()=>{
+    console.log("My name is arif");
+}
+
+nameprint();

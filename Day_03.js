@@ -1,5 +1,5 @@
 console.log("LOOP AND STRING CONCEPT");
-let sum=0;
+/*let sum=0;
 for(let i=0; i<5; i++){
     console.log(i+1,": LEARNING JAVASCRIPT LOOP");
     sum=sum+i;
@@ -21,6 +21,7 @@ for(; j<=10;j++){
 }
 
 //Q2: Print the table of 5 using while loop
+
 let k=1;
 while(k<=10){
     console.log("5 * ",k," = ",5*k);
@@ -38,7 +39,7 @@ while(k<=10){
 //     console.log(variable);
 // }
 //to calculate the number of character in string
-
+/*
 let legth=0;
 let str="ARIF IS A GOOD BOY"; //we have to access each character of this string
 for(let char of str){
@@ -46,13 +47,14 @@ for(let char of str){
     legth++;
 }
 console.log("Length of string is: ",legth);
+*/
 
 
 //for-in loop is used to access the object 
 //syntax: for(let variable +in+ object){
 //     console.log(variable);
 // }
-
+/*
 let obj={
     name:"Arif",
     age:24,
@@ -64,9 +66,21 @@ let obj={
 for(let key in obj){
     console.log("key is",key); //to access the key
     console.log(obj[key]); //to access the value of the key 
-}   
+}   */
 
 
+
+//for each LOOP:
+/*
+syntax: array.forEach(callback function(element,index,array) {
+    console.log(element);
+});
+
+-->call back function is a function which is passed as an argument to another function
+-->foreach loop is actually a method of array
+*/
+
+//example:1
 
 
 
