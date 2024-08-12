@@ -9,4 +9,6 @@ var city="BUrewala"
 /*
 prefered not to use var because of block scope problem
 */
-console.table(["email:"+email, "city :"+city]);
+
+let a;
+console.table(["email:"+email, "city :"+city, "a is :"+a]);
