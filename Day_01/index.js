@@ -12,3 +12,5 @@ prefered not to use var because of block scope problem
 
 let a;
 console.table(["email:"+email, "city :"+city, "a is :"+a]);
+
+//alert("hello boi"); -->can't use it in node js, use it browser
