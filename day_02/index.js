@@ -33,6 +33,9 @@ const s3= new String("KHAN IS BACK");
 const s4=s3.replace("KHAN", "balouch");
 console.log(s4);
 
+const s5= s3.split(" ");
+console.log(s5);//new array will found
+
 
 console.log(s4.includes("balouch"));//found 
 console.log(s4.includes("arif"));//not found
