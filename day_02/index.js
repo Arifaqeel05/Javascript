@@ -16,4 +16,7 @@ console.log(gameName.indexOf('n'));
 console.log(gameName.toUpperCase());
 console.log(gameName.toLowerCase());
 
+// const newString= gameName.substring(0,2); //0 index and 1 index will give new string
+const newString= gameName.slice(0,2);
+console.log(newString);
 
